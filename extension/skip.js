@@ -1,2 +1,2 @@
 console.log('Pressing skip.');
-document.getElementsByClass('skipButton')[0].click();
+document.getElementsByClassName('skipButton')[0].click();
