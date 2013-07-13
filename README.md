@@ -14,7 +14,7 @@ Example:
 
 ### Running it
 
-The websocket server is written in C and uses the libwebsockets library, which you can find at [http://libwebsockets.org][].  Once you have that installed just compile with:
+The websocket server is written in C and uses the libwebsockets library, which you can find at http://libwebsockets.org.  Once you have that installed just compile with:
 
 `gcc ws_server.c /path/to/your/libwebsockets.so`
 
@@ -24,4 +24,4 @@ Then just visit http://localhost:9000/playpause or /skip to control Pandora.
 
 ### Credit
 
-I'd like to give credit to Christian Cantrell who came up with this idea before me.  I stumbled upon his video [http://www.youtube.com/watch?v=tDWPeQagPKo][] when I researching for this project and although my implemention used different tools, his video was very helpful.
+I'd like to give credit to Christian Cantrell who came up with this idea before me.  I stumbled upon his video http://www.youtube.com/watch?v=tDWPeQagPKo when I was researching for this project and although my implemention used different tools, his video was very helpful.
